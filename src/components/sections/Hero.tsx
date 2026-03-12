@@ -41,21 +41,20 @@ const Hero = () => {
 
             {/* Roles */}
             <p className="text-base md:text-lg font-medium text-muted-foreground">
-              DevOps Engineer · Platform Engineer · SysAdmin
+              DevOps Engineer | Cloud & Infrastructure Engineer | SRE | Platform Engineering
             </p>
           </div>
 
           {/* Description + stack line */}
           <div className="space-y-1.5 max-w-xl">
             <p className="text-sm md:text-base text-muted-foreground leading-relaxed">
-              DevOps / Platform Engineer focado em infraestrutura cloud,
-              deploy de aplicações containerizadas e automação de operações.
+              Atuo com infraestrutura cloud, deploy de aplicações containerizadas, automação operacional e observabilidade de ambientes em produção.
             </p>
             <p className="text-sm text-muted-foreground/70 leading-relaxed">
               Ambientes Linux em produção, CI/CD, observabilidade e arquitetura de aplicações self-hosted.
             </p>
             <p className="text-xs font-mono text-muted-foreground/40 tracking-wide pt-0.5">
-              Docker · Linux · GCP · Oracle Cloud · Cloudflare · CI/CD
+              Docker · Linux · Cloudflare · CI/CD · Observability · Self-hosted Infrastructure
             </p>
           </div>
 

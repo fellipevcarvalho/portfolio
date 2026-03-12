@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 const Hero = () => {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      
+
       {/* Background gradient */}
       <div className="absolute inset-0 bg-gradient-to-b from-background via-background to-secondary/20" />
 
@@ -31,7 +31,7 @@ const Hero = () => {
       />
 
       <div className="container relative z-10 px-4 py-20">
-        
+
         {/* CONTENT */}
         <div className="flex flex-col items-center text-center space-y-8">
 
@@ -44,7 +44,7 @@ const Hero = () => {
           >
             <div className="absolute inset-0 bg-primary/50 rounded-full blur-xl opacity-50 group-hover:blur-2xl transition-all" />
             <div className="relative w-36 h-36 md:w-44 md:h-44 rounded-full border-2 border-primary/50 overflow-hidden bg-secondary flex items-center justify-center animate-float">
-              <span className="text-4xl">👨‍💻</span>
+              <span className="text-3xl font-mono text-primary">fc</span>
             </div>
           </motion.div>
 
@@ -55,12 +55,12 @@ const Hero = () => {
             animate={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.6 }}
           >
-            <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-extrabold tracking-tight">
+            <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold tracking-tight">
               Fellipe Carvalho
             </h1>
 
             <h2 className="text-lg sm:text-xl md:text-3xl font-semibold text-primary">
-              DevOps • Cloud • SRE • Automação
+              DevOps Engineer | Cloud Infrastructure | SRE | Platform Engineering
             </h2>
           </motion.div>
 
@@ -71,7 +71,7 @@ const Hero = () => {
             animate={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.6 }}
           >
-            Construindo infraestruturas escaláveis, automatizando processos e garantindo alta disponibilidade em ambientes cloud-native.
+            Infraestrutura cloud, automação operacional e deploy de aplicações containerizadas com foco em disponibilidade, segurança e escalabilidade.
           </motion.p>
 
           {/* BUTTONS */}
@@ -83,7 +83,7 @@ const Hero = () => {
           >
             {/* GitHub */}
             <Button variant="hero" size="lg" asChild>
-              <a href="https://github.com/fellipevcarvalho" target="_blank">
+              <a href="https://github.com/fellipevcarvalho" target="_blank" rel="noopener noreferrer">
                 <Github className="mr-2 h-5 w-5" />
                 GitHub
               </a>
@@ -91,7 +91,7 @@ const Hero = () => {
 
             {/* LinkedIn */}
             <Button variant="heroOutline" size="lg" asChild>
-              <a href="https://linkedin.com/in/fellipevcarvalho" target="_blank">
+              <a href="https://linkedin.com/in/fellipevcarvalho" target="_blank" rel="noopener noreferrer">
                 <Linkedin className="mr-2 h-5 w-5" />
                 LinkedIn
               </a>
@@ -99,7 +99,7 @@ const Hero = () => {
 
             {/* WhatsApp — agora idêntico */}
             <Button variant="heroOutline" size="lg" asChild>
-              <a href="https://wa.me/5519982753886" target="_blank">
+              <a href="https://wa.me/5519982753886" target="_blank" rel="noopener noreferrer">
                 <MessageCircle className="mr-2 h-5 w-5" />
                 WhatsApp
               </a>
